@@ -5,23 +5,59 @@ body{
 header{
     
     display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px;
+    border-color: darkgray;
+
+}
+
+div#div1 
+{
+ margin-left: 50px;
 }
 
 img#logo{
     width: 190px;
     height: 100px;
+    
+    
 }
+
+
+
+/*Barra de navegação*/
+
+nav{
+    margin-top: 30px;
+    margin-right: 50px;
+    
+}
+    
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    
 }
    
-    li{
-    display: inline;
+    li  {
+    display: inline;;
+    
 }
 
+    li a {
+    text-decoration: none;
+    color: #000;
+    float: left;
+    padding: 12px;
+
+}
+
+    li a:hover 
+    {
+    color: #3381f3;
+    }
 
 
 
