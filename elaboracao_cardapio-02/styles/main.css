@@ -1,6 +1,10 @@
 body{
     margin: 0;
+    height: 100%;
 }
+
+/*Vamos alinhar as divs horizontalmente utilizando o display-flex
+e justify-content*/
 
 header{
     
@@ -8,12 +12,14 @@ header{
     justify-content: space-between;
     border-bottom: solid 1px;
     border-color: darkgray;
+    
+    
 
 }
 
 div#div1 
 {
- margin-left: 50px;
+  margin-left: 50px;
 }
 
 img#logo{
@@ -33,19 +39,20 @@ nav{
     
 }
     
-
+/*list-style-type para tirar os bullets que vem na lista por padrão*/
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     
 }
-   
+ /*os elementos li são elementos de bloco
+ usamos display : inline para posicionar em linha*/  
     li  {
     display: inline;;
     
 }
-
+ 
     li a {
     text-decoration: none;
     color: #000;
@@ -58,6 +65,115 @@ ul {
     {
     color: #3381f3;
     }
+
+    /*Banner*/
+
+    .banner
+    {
+        
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    .banner-text
+    {
+        font-family: 'Luckiest Guy', cursive;
+     font-size: 20px;
+      position: absolute;
+      top: 80px;
+      left: 45px;
+      color: white;
+    }
+
+    
+
+    footer
+    {
+      display: flex;
+      justify-content: space-between;
+      background-color: chartreuse;
+      margin: 0;
+
+    }
+
+    #texto-footer
+    {
+        margin-left: 35px;
+    }
+
+
+    #icones
+    {
+       margin-top: 40px;
+       margin-bottom: 40px;    
+        
+    }
+
+    
+    
+    .icons
+    {
+        
+       padding: 16px;
+       display: inline;
+       border-radius: 30px;
+    }
+ 
+
+    #um
+    {
+        border-radius: 5px;
+    }
+
+    #dois
+    {
+        border-radius: 5px;
+    }
+
+    #três
+    {
+        border-radius: 5px;
+    }
+
+    #quatro
+    {
+        border-radius: 5px;
+    }
+
+
+
+
+
+
+        
+     
+      
+
+
+        
+        
+      
+
+     
+
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
 
 
 
