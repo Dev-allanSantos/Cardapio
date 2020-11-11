@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+    height: 100%;
+}
+
+/*Vamos alinhar as divs horizontalmente utilizando o display-flex
+e justify-content*/
+
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px;
+    border-color: darkgray;
+    
+    
+
+}
+
+div#div1 
+{
+  margin-left: 50px;
+}
+
+img#logo{
+    width: 190px;
+    height: 100px;
+    
+    
+}
+
+
+
+/*Barra de navegação*/
+
+nav{
+    margin-top: 30px;
+    margin-right: 50px;
+    
+}
+    
+/*list-style-type para tirar os bullets que vem na lista por padrão*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+ /*os elementos li são elementos de bloco
+ usamos display : inline para posicionar em linha*/  
+    li  {
+    display: inline;;
+    
+}
+ 
+    li a {
+    text-decoration: none;
+    color: #000;
+    float: left;
+    padding: 12px;
+
+}
+
+    li a:hover 
+    {
+    color: #3381f3;
+    }
+
+    /*Banner*/
+
+    .banner
+    {
+        
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    .banner-text
+    {
+        font-family: 'Luckiest Guy', cursive;
+     font-size: 20px;
+      position: absolute;
+      top: 80px;
+      left: 45px;
+      color: white;
+    }
+
+    h2
+    {
+        align-self: center;
+    }
+
+    /*Section*/
+
+    section#catalog
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: rgb(229, 234, 235);
+        
+
+    }
+
+   article#Heading2
+   {
+       display: flex;
+       justify-content: center;
+       margin-top: 40px;
+       color:  #335fa1;
+       font-family: 'Poppins', sans-serif ;
+       font-size: 25px;
+   }
+    
+    
+    
+
+    div.card
+    {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 350px;
+        margin: 15px;
+        background-color: white;
+        border-radius: 20px;
+        
+        padding: 15px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        color: #335fa1;
+        margin-top: 25px;
+
+
+    }
+
+   
+
+    div.card img
+    {
+        height: 200px;
+        width: 250px;
+        align-self: flex-start;
+        align-self: center;
+    }
+
+    
+
+    
+
+    footer
+    {
+      display: flex;
+      justify-content: space-between;
+      background-color: #335fa1;
+      margin-top: 30px;
+      color: white;
+
+    }
+
+    #texto-footer
+    {
+        margin-left: 35px;
+    }
+
+
+    #icones
+    {
+       margin-top: 40px;
+       margin-bottom: 40px;    
+        
+    }
+
+    
+    
+    .icons
+    {
+        
+       padding: 16px;
+       display: inline;
+       border-radius: 30px;
+    }
+ 
+
+    #um
+    {
+        border-radius: 8px;
+    }
+
+    #dois
+    {
+        border-radius: 8px;
+    }
+
+    #três
+    {
+        border-radius: 8px;
+    }
+
+    #quatro
+    {
+        border-radius: 8px;
+    }
+
+
+
+
+
+
+        
+     
+      
+
+
+        
+        
+      
+
+     
+
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+
+
+
