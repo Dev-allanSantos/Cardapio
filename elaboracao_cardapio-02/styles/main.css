@@ -90,13 +90,60 @@ ul {
       color: white;
     }
 
+    h2
+    {
+        align-self: center;
+    }
+
+    /*Section*/
+
+    section#catalog
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: lightsteelblue;
+        
+
+    }
+    
+    
+    
+
+    div.card
+    {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 350px;
+        margin: 15px;
+        background-color:lightyellow;
+        border-radius: 20px;
+        
+        padding: 15px;
+
+
+    }
+
+   
+
+    div.card img
+    {
+        height: 200px;
+        width: 250px;
+        align-self: flex-start;
+        align-self: center;
+    }
+
+    
+
     
 
     footer
     {
       display: flex;
       justify-content: space-between;
-      background-color: chartreuse;
+      background-color: #3381f3;
       margin: 0;
 
     }
@@ -127,22 +174,22 @@ ul {
 
     #um
     {
-        border-radius: 5px;
+        border-radius: 8px;
     }
 
     #dois
     {
-        border-radius: 5px;
+        border-radius: 8px;
     }
 
     #três
     {
-        border-radius: 5px;
+        border-radius: 8px;
     }
 
     #quatro
     {
-        border-radius: 5px;
+        border-radius: 8px;
     }
 
 
