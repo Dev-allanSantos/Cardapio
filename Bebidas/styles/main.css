@@ -1,0 +1,279 @@
+header{   
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 0.5px;
+    border-color:black;
+    background-color: white;
+    margin: 0%;
+    width: 100%;
+    height: 100px;
+}
+#logo{
+    width: 190px;
+    height: 100px;
+}
+nav {
+    margin-top: 30px;
+    margin-right: 50px;
+}
+a {
+    text-decoration: none;
+}
+#menu{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-start;
+}
+li{
+    display: inline;
+}
+li a{
+    text-decoration: none;
+    color: #000;
+    float: right;
+    padding: 10px;
+}
+body{
+    margin: 0;
+    background-color: rgb(229, 234, 235);
+}
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 70px;
+    width: 1300px;
+    height: 400px;
+}
+
+div {
+    border-radius: 10%;
+    margin: 0%;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+}
+p {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7px;
+    margin-top: 0px;
+}
+img{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 0px;
+}
+button {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    width: 100px;
+    height: 20px;
+    border-radius: 1px solid;
+}
+#agua_semgas{
+    border: 0px solid black;
+    border-radius: 15px;
+    background-color: lightskyblue;
+}
+#agua_comgas{
+    border: 0px solid black;
+    border-radius: 15px;
+    background-color: lightskyblue;
+}
+#Coca_lata{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 0px solid black;
+    border-radius: 15px;
+    background-color: lightskyblue;
+}
+#cocalataimg {
+    display: flex;
+    width: 160px;
+    height: 260px;
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 70px;
+}
+#Coca0{
+    border: 0px solid black;
+    border-radius: 15px;
+    background-color: lightskyblue;
+}
+#Guarana_lata{
+    border: 0px solid black;
+    border-radius: 15px;
+    background-color: lightskyblue;
+}
+#guaranalataimg{
+    width: 170px;
+    height: 300px;
+}
+#Guaranazero_lata{
+    border: 0px solid black;
+    border-radius: 15px;
+    background-color: lightskyblue;
+}
+#guarana0lataimg{
+    width: 170px;
+    height: 300px;
+}
+#GuaranaFanta_lata{
+    display: flex;
+    flex-direction: column;
+    border: 0px solid black;
+    border-radius: 15px;
+    background-color: lightskyblue;
+}
+#fantaguaranaimg{
+    align-self: center;
+    width: 170px;
+    height: 290px;
+}
+#Pepsi_lata{
+    border: 0px solid black;
+    border-radius: 15px;
+    background-color: lightskyblue;
+}
+#pepsilataimg{
+    width: 170px;
+    height: 300px;
+}
+#Delvalle_lata{
+    border: 0px solid black;
+    border-radius: 15px;
+    background-color: lightskyblue;
+}
+#delvallelataimg{
+    width: 210px;
+    height: 300px;
+}
+#Skol_lata{
+    border: 0px solid black;
+    border-radius: 15px;
+    background-color: lightskyblue;
+}
+#Coca_garrafa{
+    border: 0px solid black;
+    border-radius: 15px;
+    background-color: lightskyblue;
+}
+#cocagarrafaimg{
+    width: 130px;
+    height: 300px;
+}
+#fanta_garrafa{
+    border: 0px solid black;
+    border-radius: 15px;
+    background-color: lightskyblue;
+}
+#fanta_garrafaimg {
+    width: 140px;
+    height: 300px;
+}
+#Guarana_garrafa{
+    border: 0px solid black;
+    border-radius: 15px;
+    background-color: lightskyblue;
+}
+#guaranagarrafaimg{
+    width: 120px;
+    height: 300px;
+}
+#Pepsi_garrafa{
+    border: 0px solid black;
+    border-radius: 15px;
+    background-color: lightskyblue;
+}
+#pepsigarrafaimg{
+    width: 100px;
+    height: 300px;
+}
+#delvalle_caixa{
+    border: 0px solid black;
+    border-radius: 15px;
+    background-color: lightskyblue;
+    width: 300px;
+    height: 400px;
+    
+}
+#delvalleimg{
+    margin-top: 70px;
+    margin-bottom: 50px;
+    width: 210px;
+    height: 180px;
+}
+#Skol_garrafa{
+    display: flex;
+    flex-direction: column;
+    border: 0px solid black;
+    border-radius: 15px;
+    background-color: lightskyblue;    
+}
+#skolgarrafaimg {
+    align-self: center;
+    width: 160px;
+    height: 300px;
+    margin-bottom: 0px;
+}
+footer {
+    background-color: #355fa1;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 150px;
+    
+}
+#Texto {
+    text-align: left;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    height: 100px;
+}
+#gif {
+    height: 100px;
+}
+#GIF {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 0px;
+}
+#Redes {
+    display: inline-block;
+    margin-bottom: 0px;
+    height: 100px;
+}
+#R1{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+#R2{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+#R3{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+#R4{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
