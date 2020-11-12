@@ -12,6 +12,7 @@ header{
     justify-content: space-between;
     border-bottom: solid 1px;
     border-color: darkgray;
+    font-size: 17px;
     
     
 
@@ -103,19 +104,24 @@ ul {
         flex-wrap: wrap;
         justify-content: center;
         background-color: rgb(229, 234, 235);
+    }
+
+    section#catalog a
+    {
+        text-decoration: none;
+    }
         
 
-    }
 
    article#Heading2
    {
        display: flex;
        justify-content: center;
-       margin-top: 40px;
        color:  #335fa1;
        font-family: 'Poppins', sans-serif ;
        font-size: 25px;
-   }
+    }
+
     
     
     
@@ -157,6 +163,7 @@ ul {
     {
       display: flex;
       justify-content: space-between;
+      
       background-color: #335fa1;
       margin-top: 30px;
       color: white;
@@ -166,25 +173,39 @@ ul {
     #texto-footer
     {
         margin-left: 35px;
+        align-self: center;
     }
 
 
     #icones
     {
-       margin-top: 40px;
-       margin-bottom: 40px;    
-        
+        margin-top: 52px;
+       margin-bottom: 38px; 
+       margin-right: 10px;
+       text-align: center;
+       
     }
-
-    
-    
+       
+       
     .icons
     {
         
-       padding: 16px;
+       padding: 12px;
        display: inline;
-       border-radius: 30px;
+       
     }
+
+    div.icons a 
+    {
+        text-decoration: none;
+    }
+       
+        
+
+    
+    
+       
+       
  
 
     #um
@@ -206,6 +227,8 @@ ul {
     {
         border-radius: 8px;
     }
+
+    
 
 
 
